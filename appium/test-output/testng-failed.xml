@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testing_journey.appium.Ecommerce_Fill_Form_Add_To_Cart">
+      <class name="testing_journey.appium.SwipeDemo">
         <methods>
           <include name="setupAppium"/>
           <include name="clearAppiumProcess"/>
-          <include name="fillFormAndAddToCart"/>
+          <include name="swipeAction"/>
         </methods>
-      </class> <!-- testing_journey.appium.Ecommerce_Fill_Form_Add_To_Cart -->
+      </class> <!-- testing_journey.appium.SwipeDemo -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -44,11 +44,11 @@ public class BaseTest {
 
 		if (appSelection == 1) {
 			options.setApp(
-					"C:\\Users\\Muhammad Ali\\eclipse-workspace\\appium\\src\\test\\java\\resources\\ApiDemos-debug.apk");
+					"C:\\Users\\Muhammad Ali\\git\\appium\\appium\\src\\test\\java\\resources\\ApiDemos-debug.apk");
 		} else {
 
 			options.setApp(
-					"C:\\Users\\Muhammad Ali\\eclipse-workspace\\appium\\src\\test\\java\\resources\\General-Store.apk");
+					"C:\\Users\\Muhammad Ali\\git\\appium\\appium\\src\\test\\java\\resources\\General-Store.apk");
 		}
 
 		driver = new AndroidDriver(new URL("http://127.0.0.1:4723"), options);
