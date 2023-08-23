@@ -54,7 +54,6 @@ public class BaseTest {
 
 			options.setApp(
 					"C:\\Users\\Muhammad Ali\\git\\appium\\appium\\src\\test\\java\\resources\\General-Store.apk");
-			options.autoGrantPermissions();
 		}
 		
 

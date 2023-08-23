@@ -4,7 +4,7 @@ This project contains different test use cases implemented with Appium and UIAut
 
 It includes testing gestures like drag and drop, long press, scrolling, swiping etc and entering text and events like screen rotation.
 
-Many different use cases like filling forms, user input, text validation, checking cart for correct items have been tested.
+Many different use cases like filling forms, user input, text validation, checking cart for correct items, WebViews and Chrome browser have been tested.
 
 ## Screenshots
 
