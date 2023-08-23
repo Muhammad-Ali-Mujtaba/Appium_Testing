@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-16T14:51:16 CEST" name="Default suite" finished-at="2023-08-16T14:52:12 CEST" duration-ms="56123">
+  <suite started-at="2023-08-23T10:32:48 CEST" name="Default suite" finished-at="2023-08-23T10:33:43 CEST" duration-ms="55661">
     <groups>
     </groups>
-    <test started-at="2023-08-16T14:51:16 CEST" name="Default test" finished-at="2023-08-16T14:52:12 CEST" duration-ms="56123">
-      <class name="testing_journey.appium.Ecommerce_Cart_Total_Validation">
-        <test-method is-config="true" signature="setupAppium()[pri:0, instance:testing_journey.appium.Ecommerce_Cart_Total_Validation@117159c0]" started-at="2023-08-16T14:51:16 CEST" name="setupAppium" finished-at="2023-08-16T14:51:36 CEST" duration-ms="19579" status="PASS">
+    <test started-at="2023-08-23T10:32:48 CEST" name="Default test" finished-at="2023-08-23T10:33:43 CEST" duration-ms="55661">
+      <class name="testing_journey.appium.Ecommerce_WebView">
+        <test-method is-config="true" signature="setupAppium()[pri:0, instance:testing_journey.appium.Ecommerce_WebView@117159c0]" started-at="2023-08-23T10:32:48 CEST" name="setupAppium" finished-at="2023-08-23T10:33:04 CEST" duration-ms="16101" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupAppium -->
-        <test-method signature="cartTotalValidation()[pri:0, instance:testing_journey.appium.Ecommerce_Cart_Total_Validation@117159c0]" started-at="2023-08-16T14:51:36 CEST" name="cartTotalValidation" finished-at="2023-08-16T14:52:12 CEST" duration-ms="36013" status="PASS">
+        <test-method signature="webViewValidation()[pri:0, instance:testing_journey.appium.Ecommerce_WebView@117159c0]" started-at="2023-08-23T10:33:04 CEST" name="webViewValidation" finished-at="2023-08-23T10:33:43 CEST" duration-ms="38957" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- cartTotalValidation -->
-        <test-method is-config="true" signature="clearAppiumProcess()[pri:0, instance:testing_journey.appium.Ecommerce_Cart_Total_Validation@117159c0]" started-at="2023-08-16T14:52:12 CEST" name="clearAppiumProcess" finished-at="2023-08-16T14:52:12 CEST" duration-ms="469" status="PASS">
+        </test-method> <!-- webViewValidation -->
+        <test-method is-config="true" signature="clearAppiumProcess()[pri:0, instance:testing_journey.appium.Ecommerce_WebView@117159c0]" started-at="2023-08-23T10:33:43 CEST" name="clearAppiumProcess" finished-at="2023-08-23T10:33:43 CEST" duration-ms="560" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clearAppiumProcess -->
-      </class> <!-- testing_journey.appium.Ecommerce_Cart_Total_Validation -->
+      </class> <!-- testing_journey.appium.Ecommerce_WebView -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

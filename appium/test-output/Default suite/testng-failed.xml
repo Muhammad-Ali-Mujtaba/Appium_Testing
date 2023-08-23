@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testing_journey.appium.SwipeDemo">
+      <class name="testing_journey.appium.Ecommerce_WebView">
         <methods>
           <include name="setupAppium"/>
+          <include name="webViewValidation"/>
           <include name="clearAppiumProcess"/>
-          <include name="swipeAction"/>
         </methods>
-      </class> <!-- testing_journey.appium.SwipeDemo -->
+      </class> <!-- testing_journey.appium.Ecommerce_WebView -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
