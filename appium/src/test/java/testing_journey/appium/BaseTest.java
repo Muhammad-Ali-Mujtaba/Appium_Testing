@@ -43,17 +43,14 @@ public class BaseTest {
 
 		UiAutomator2Options options = new UiAutomator2Options();
 		options.setDeviceName("Pixel 2 API 28");
-		
-
-		//options.setChromedriverExecutable("D:\\Softwares\\chromedriver-win32\\chromedriver.exe");
 
 		if (appSelection == 1) {
 			options.setApp(
-					"C:\\Users\\Muhammad Ali\\git\\appium\\appium\\src\\test\\java\\resources\\ApiDemos-debug.apk");
+					System.getProperty("user.dir")+"\\src\\test\\java\\resources\\ApiDemos-debug.apk");
 		} else {
 
 			options.setApp(
-					"C:\\Users\\Muhammad Ali\\git\\appium\\appium\\src\\test\\java\\resources\\General-Store.apk");
+					System.getProperty("user.dir")+"\\src\\test\\java\\resources\\General-Store.apk");
 		}
 		
 
