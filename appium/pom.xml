@@ -22,8 +22,26 @@
 	<dependencies>
 		<!-- https://mvnrepository.com/artifact/io.appium/java-client -->
 		<dependency>
-			<groupId>io.appium</groupId>
 			<artifactId>java-client</artifactId>
+			<exclusions>
+				<exclusion>
+					<groupId>org.seleniumhq.selenium</groupId>
+					<artifactId>selenium-api</artifactId>
+				</exclusion>
+				<exclusion>
+					<groupId>org.seleniumhq.selenium</groupId>
+					<artifactId>selenium-remote-driver</artifactId>
+				</exclusion>
+				<exclusion>
+					<groupId>org.seleniumhq.selenium</groupId>
+					<artifactId>selenium-support</artifactId>
+				</exclusion>
+				<exclusion>
+					<groupId>org.seleniumhq.selenium</groupId>
+					<artifactId>selenium-java</artifactId>
+				</exclusion>
+			</exclusions>
+			<groupId>io.appium</groupId>
 			<version>8.5.1</version>
 		</dependency>
 
@@ -32,6 +50,43 @@
 			<groupId>org.testng</groupId>
 			<artifactId>testng</artifactId>
 			<version>7.8.0</version>
+		</dependency>
+
+		<dependency>
+			<artifactId>appium-test-extension</artifactId>
+			<groupId>com.microsoft.appcenter</groupId>
+			<version>1.6</version>
+		</dependency>
+		<dependency>
+			<artifactId>selenium-support</artifactId>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<version>4.8.1</version>
+		</dependency>
+		<dependency>
+			<artifactId>selenium-api</artifactId>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<version>4.8.1</version>
+		</dependency>
+		<dependency>
+			<artifactId>commons-io</artifactId>
+			<groupId>commons-io</groupId>
+			<version>2.11.0</version>
+		</dependency>
+		<dependency>
+			<artifactId>jackson-databind</artifactId>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<version>2.14.2</version>
+		</dependency>
+		<dependency>
+			<artifactId>extentreports</artifactId>
+			<groupId>com.aventstack</groupId>
+			<scope>test</scope>
+			<version>5.0.9</version>
+		</dependency>
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<version>1.18.20</version>
 		</dependency>
 
 

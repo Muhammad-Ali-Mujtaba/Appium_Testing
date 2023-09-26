@@ -1,14 +1,18 @@
 # App__Testing_Appium
 
-This project contains different test use cases implemented with Appium and UIAutomator.
+This project contains automated test cases implemented with Appium.
 
-It includes testing gestures like drag and drop, long press, scrolling, swiping etc and entering text and events like screen rotation.
+It utilizes many events and gestures like drag and drop, long press, scrolling, swiping, using clipboard, screen rotation, entering text, AndroidKeys etc.
 
-Many different use cases like filling forms, user input, text validation, checking cart for correct items, WebViews and Chrome browser have been tested.
+Many different use cases have been tested like filling forms, user input, text validation, checking cart for correct items and price totals etc.
+
+A hybrid app with external websites through WebViews has also been tested for browser interaction, scrolling past cookies popup, searching etc.
+A separate test case for the Chrome browser app has also been implemented.
 
 ## Screenshots
 
 ![Screenshot1](screenshots/Screenshot_1.PNG) ![Screenshot2](screenshots/Screenshot_2.PNG)
 ![Screenshot3](screenshots/Screenshot_3.PNG) ![Screenshot4](screenshots/Screenshot_4.PNG)
-![Screenshot3](screenshots/Screenshot_5.PNG) ![Screenshot4](screenshots/Screenshot_6.PNG)
-![Screenshot4](screenshots/Screenshot_7.PNG)
+![Screenshot45](screenshots/Screenshot_45.PNG)
+![Screenshot5](screenshots/Screenshot_5.PNG) ![Screenshot6](screenshots/Screenshot_6.PNG)
+![Screenshot7](screenshots/Screenshot_7.PNG)

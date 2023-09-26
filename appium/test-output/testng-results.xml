@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-23T11:27:35 CEST" name="Default suite" finished-at="2023-08-23T11:28:20 CEST" duration-ms="45217">
+  <suite started-at="2023-09-26T15:57:21 CEST" name="Default suite" finished-at="2023-09-26T15:58:27 CEST" duration-ms="65909">
     <groups>
     </groups>
-    <test started-at="2023-08-23T11:27:35 CEST" name="Default test" finished-at="2023-08-23T11:28:20 CEST" duration-ms="45217">
-      <class name="testing_journey.appium.MobileBrowserTest">
-        <test-method is-config="true" signature="setupAppium()[pri:0, instance:testing_journey.appium.MobileBrowserTest@25ce9dc4]" started-at="2023-08-23T11:27:35 CEST" name="setupAppium" finished-at="2023-08-23T11:28:14 CEST" duration-ms="39393" status="PASS">
+    <test started-at="2023-09-26T15:57:21 CEST" name="Default test" finished-at="2023-09-26T15:58:27 CEST" duration-ms="65909">
+      <class name="testing_journey.appium.Ecommerce_WebView">
+        <test-method is-config="true" signature="setupAppium()[pri:0, instance:testing_journey.appium.Ecommerce_WebView@53fb3dab]" started-at="2023-09-26T15:57:21 CEST" name="setupAppium" finished-at="2023-09-26T15:57:34 CEST" duration-ms="13403" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupAppium -->
-        <test-method signature="testMobileBrowser()[pri:0, instance:testing_journey.appium.MobileBrowserTest@25ce9dc4]" started-at="2023-08-23T11:28:14 CEST" name="testMobileBrowser" finished-at="2023-08-23T11:28:19 CEST" duration-ms="4819" status="PASS">
+        <test-method signature="webViewValidation()[pri:0, instance:testing_journey.appium.Ecommerce_WebView@53fb3dab]" started-at="2023-09-26T15:57:34 CEST" name="webViewValidation" finished-at="2023-09-26T15:58:26 CEST" duration-ms="51355" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testMobileBrowser -->
-        <test-method is-config="true" signature="clearAppiumProcess()[pri:0, instance:testing_journey.appium.MobileBrowserTest@25ce9dc4]" started-at="2023-08-23T11:28:19 CEST" name="clearAppiumProcess" finished-at="2023-08-23T11:28:20 CEST" duration-ms="928" status="PASS">
+        </test-method> <!-- webViewValidation -->
+        <test-method is-config="true" signature="clearAppiumProcess()[pri:0, instance:testing_journey.appium.Ecommerce_WebView@53fb3dab]" started-at="2023-09-26T15:58:26 CEST" name="clearAppiumProcess" finished-at="2023-09-26T15:58:27 CEST" duration-ms="1050" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clearAppiumProcess -->
-      </class> <!-- testing_journey.appium.MobileBrowserTest -->
+      </class> <!-- testing_journey.appium.Ecommerce_WebView -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
