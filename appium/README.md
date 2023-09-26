@@ -13,6 +13,6 @@ A separate test case for the Chrome browser app has also been implemented.
 
 ![Screenshot1](screenshots/Screenshot_1.PNG) ![Screenshot2](screenshots/Screenshot_2.PNG)
 ![Screenshot3](screenshots/Screenshot_3.PNG) ![Screenshot4](screenshots/Screenshot_4.PNG)
-![Screenshot45](screenshots/Screenshot_45.PNG)
+![Screenshot8](screenshots/Screenshot_8.PNG)
 ![Screenshot5](screenshots/Screenshot_5.PNG) ![Screenshot6](screenshots/Screenshot_6.PNG)
 ![Screenshot7](screenshots/Screenshot_7.PNG)
